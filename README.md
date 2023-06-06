@@ -1,34 +1,86 @@
-
-## About Me 👤
-Hi! I am William Danso, a passionate data scientist with a strong background in data analysis, machine learning, and visualization with experience in Python, R, Tableau, Excel, Power BI, SQL, Hadoop, PySpark, HTML, CSS, and JavaScript. I love to code , travel and capture moments through the lens of my camera.
-
-## Skills ⭐️
-**Python:** I am proficient in Python programming and regularly use it for data manipulation, cleaning, and analysis. I have experience with popular libraries such as Pandas, NumPy, and scikit-learn.
-
-**R:** I am well-versed in R programming and have utilized it for statistical analysis, data visualization, and modeling. I am familiar with packages like ggplot2 and dplyr.
-
-**Tableau:** I have hands-on experience with Tableau for creating interactive and visually appealing data visualizations. I can transform complex datasets into impactful  dashboards and reports.
-
-**Excel:** I am skilled in utilizing Excel for data analysis, including data cleaning, formula-based calculations, and creating insightful visualizations.
-
-**Power BI:** I have experience in designing interactive dashboards and reports using Power BI, enabling users to explore data and gain valuable insights.
-
-**SQL:** I have a strong command of SQL (Structured Query Language) and As and can efficiently retrieve, manipulate, analyze, and optimize data from relational databases.
-
-**Hadoop:** I have a working knowledge of Hadoop and its ecosystem, including HDFS, MapReduce, and Hive. I have leveraged these tools to process and analyze large datasets.
-
-**PySpark:** I am proficient in using PySpark, the Python API for Apache Spark, to perform distributed data processing and machine learning tasks.
-
-**HTML, CSS, JavaScript:** I possess front-end web development skills, including HTML, CSS, and JavaScript, allowing me to create visually appealing and interactive data visualizations.
-
-## Projects 💻
-I have worked on a wide range of projects as a data scientist, addressing challenges across various domains. Here are some of the projects:
-
-**Customer Segmentation:** An in-depth analysis of customer segmentation for an e-commerce platform, resulting in targeted marketing campaigns and improved customer satisfaction.
-
-**Loan Default Prediction(ML):** Development of a predictive maintenance model for a manufacturing company, optimizing maintenance schedules and minimizing equipment downtime.
-
-**Life Expectancy Visualization:** Tableau was used to analyze and visualize variations in life expectancy across countries and regions. To gain insights into life expectancy disparities and trends worldwide, the project examined factors including income, education, and healthcare through interactive visualizations.
-
-You can find more details and explore additional projects in my GitHub repository.
-
+<!DOCTYPE html>
+<html>
+<head>
+  <title>William Danso</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #333;
+      padding: 20px;
+      color: #fff;
+      text-align: center;
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    .profile-picture {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      margin-bottom: 20px;
+    }
+    .skills {
+      list-style-type: none;
+      padding: 0;
+    }
+    .skills li {
+      margin-bottom: 10px;
+    }
+    .projects {
+      list-style-type: none;
+      padding: 0;
+    }
+    .projects li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>William Danso</h1>
+    <h2>Data Scientist</h2>
+    <img src="profile-picture.jpg" alt="Profile Picture" class="profile-picture">
+  </header>
+  <div class="container">
+    <h2>About Me</h2>
+    <p>Hi there! I'm William Danso, a passionate data scientist with a strong background in data analysis, machine learning, and visualization. I have experience in Python, R, Tableau, Excel, Power BI, SQL, Hadoop, PySpark, HTML, CSS, and JavaScript.</p>
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>Python</li>
+      <li>R</li>
+      <li>Tableau</li>
+      <li>Excel</li>
+      <li>Power BI</li>
+      <li>SQL</li>
+      <li>Hadoop</li>
+      <li>PySpark</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+    <h2>Projects</h2>
+    <ul class="projects">
+      <li>Customer Segmentation</li>
+      <li>Loan Default Prediction (ML)</li>
+      <li>Life Expectancy Visualization</li>
+    </ul>
+  </div>
+</body>
+</html>
